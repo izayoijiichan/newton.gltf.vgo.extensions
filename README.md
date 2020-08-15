@@ -14,6 +14,7 @@ ___
     - VGO
       - meta
       - right
+      - avatar
   - nodes
     - extensions
       - VGO_nodes
@@ -22,6 +23,7 @@ ___
           - collider
         - rigidbody
         - light
+        - blendShape
         - particleSystem
         - right
         - skybox
@@ -45,6 +47,7 @@ ___
   - VGO_Transform
   - VGO_Rigidbody
   - VGO_Collider
+  - VGO_BrendShape
   - VGO_ParticleSystem
   - VGO_Skybox
   - VGO_Light
@@ -55,9 +58,16 @@ ___
   - VRMC_materials_mtoon
 - Elements
   - VGO_AnimationCurve
+  - VGO_BlendShapeBinding
+  - VGO_BlendShapeBlink
+  - VGO_BlendShapeFacePart
+  - VGO_BlendShapePreset
+  - VGO_BlendShapeViseme
   - VGO_Gradient
   - VGO_GradientAlphaKey
   - VGO_GradientColorKey
+  - VGO_HumanAvatar
+  - VGO_HumanBone
   - VGO_Keyframe
   - VGO_PhysicMaterial
   - VGO_PS_Burst
@@ -89,7 +99,7 @@ ___
 
 ## Specification
 
-- VGO JSON Schema: [0.6](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/0.6/schema)
+- VGO JSON Schema: [1.0](https://github.com/izayoijiichan/VGO/tree/master/Documentation~/VGO/specification/1.0/schema)
 - VRMC_materials_mtoon: [1.0](https://github.com/vrm-c/vrm-specification/tree/master/specification/VRMC_materials_mtoon-1.0_draft)
 
 ## Framework
@@ -100,11 +110,11 @@ ___
 ## Dependent Packages
 
 - Newtonsoft.Json 12.0.3
-- [VgoGltf](https://github.com/izayoijiichan/vgo.gltf.git) 1.0.0
+- [VgoGltf](https://github.com/izayoijiichan/vgo.gltf.git) 1.0.2
 - [NewtonGltf](https://github.com/izayoijiichan/newton.gltf.git) 1.0.0
 
 ___
-Last updated: 7 August, 2020  
+Last updated: 15 August, 2020  
 Editor: Izayoi Jiichan
 
 *Copyright (C) 2020 Izayoi Jiichan. All Rights Reserved.*

@@ -27,6 +27,10 @@ namespace NewtonGltf
         [JsonProperty("rigidbody")]
         public VGO_Rigidbody rigidbody = null;
 
+        /// <summary>BlendShape</summary>
+        [JsonProperty("blendShape")]
+        public VGO_BlendShape blendShape = null;
+
         /// <summary>Light</summary>
         [JsonProperty("light")]
         public VGO_Light light = null;

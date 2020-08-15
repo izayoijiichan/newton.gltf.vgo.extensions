@@ -22,6 +22,10 @@ namespace NewtonGltf
         [JsonProperty("right", Required = Required.Default)]
         public Gltf_VGO_Right right = null;
 
+        /// <summary>Avatar</summary>
+        [JsonProperty("avatar")]
+        public VGO_HumanAvatar avatar = null;
+
         /// <summary></summary>
         [JsonIgnore]
         public static string ExtensionName => "VGO";
